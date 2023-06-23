@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    tools:context=".Register2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom | center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/reg2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="15"
+            android:text="@string/reg2_enterinfo_T"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="125dp"></TextView>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/nameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:padding="15dp"
+                android:shadowColor="#000000"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="15"
+                android:text="@string/reg2_name_T"
+                android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </Space>
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/reg2_name_T" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+        </Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/yearsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="@string/reg2_years_T"
+                android:fontFamily="@font/baloo"
+                android:shadowColor="#000000"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="15"
+                android:textColor="@color/white"/>/>
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </Space>
+
+            <EditText
+                android:id="@+id/yearsEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="number"
+                android:hint="@string/reg2_years_T"/>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+        </Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/weightText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="@string/reg2_weight_T"
+                android:fontFamily="@font/baloo"
+                android:shadowColor="#000000"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="15"
+                android:textColor="@color/white"/>/>
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </Space>
+
+            <EditText
+                android:id="@+id/weightEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:hint="@string/reg2_weight_T"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+        </Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/heightText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="@string/reg2_height_T"
+                android:fontFamily="@font/baloo"
+                android:shadowColor="#000000"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="15"
+                android:textColor="@color/white"/>/>
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </Space>
+
+            <EditText
+                android:id="@+id/heightEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="number"
+                android:hint="@string/reg2_height_T"/>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+        </Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/menText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reg2_men_T"
+                android:fontFamily="@font/baloo"
+
+                android:textColor="@color/white"/>
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </Space>
+
+            <Switch
+                android:id="@+id/reg2Switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="match_parent">
+
+            </Space>
+
+            <TextView
+                android:id="@+id/womenText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reg2_women_T"
+                android:fontFamily="@font/baloo"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+        </Space>
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reg2_save_T" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="150dp"></Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/tr_round"
+                />
+
+            <Switch
+                android:id="@+id/accountSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/eng"
+                />
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

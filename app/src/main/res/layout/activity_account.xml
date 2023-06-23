@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    tools:context=".Account">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|left"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"></Space>
+
+            <TextView
+                android:id="@+id/accountTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="4"
+                android:shadowDy="10"
+                android:shadowRadius="12"
+                android:text="@string/account_myAccount_T"
+                android:textColor="@color/white"
+                android:textSize="50dp" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></Space>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@android:drawable/btn_star_big_on" />
+
+                <TextView
+                    android:id="@+id/accountNameTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4"
+                    android:shadowDy="10"
+                    android:shadowRadius="12"
+                    android:text="@string/account_name_T"
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/accountNameTV2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4"
+                    android:shadowDy="10"
+                    android:shadowRadius="12"
+                    android:text="TextView"
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"></Space>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="88dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@android:drawable/ic_menu_agenda" />
+
+                <TextView
+                    android:id="@+id/accountYearsTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4"
+                    android:shadowDy="10"
+                    android:shadowRadius="12"
+                    android:text="@string/reg2_years_T"
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/accountYearsTV2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4"
+                    android:shadowDy="10"
+                    android:shadowRadius="12"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"></Space>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="88dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/weight_foreground" />
+
+                <TextView
+                    android:id="@+id/accountWeightTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4"
+                    android:shadowDy="10"
+                    android:shadowRadius="12"
+                    android:text="@string/reg2_weight_T"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    />
+
+                <TextView
+                    android:id="@+id/accountWeightTV2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4"
+                    android:shadowDy="10"
+                    android:shadowRadius="12"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"></Space>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="88dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/height_foreground" />
+
+                <TextView
+                    android:id="@+id/accountHeightTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4"
+                    android:shadowDy="10"
+                    android:shadowRadius="12"
+                    android:text="@string/reg2_height_T"
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/accountHeightTV2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4"
+                    android:shadowDy="10"
+                    android:shadowRadius="12"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"></Space>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity=""
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="88dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/sex_foreground" />
+
+                <TextView
+                    android:id="@+id/accountSexTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4"
+                    android:shadowDy="10"
+                    android:shadowRadius="12"
+                    android:text="@string/account_sex_T"
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/accountSexTV2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4"
+                    android:shadowDy="10"
+                    android:shadowRadius="12"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"></Space>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/accountBMITV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4"
+                    android:shadowDy="10"
+                    android:shadowRadius="12"
+                    android:text="BMI"
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/accountBMITV2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4"
+                    android:shadowDy="10"
+                    android:shadowRadius="12"
+                    android:text="TextView"
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/accountBMITV3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:fontFamily="@font/baloo"
+                    android:padding="5dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4"
+                    android:shadowDy="10"
+                    android:shadowRadius="12"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+
+        <Button
+            android:id="@+id/accountupdatebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bilgilerini Güncelle"
+            android:fontFamily="@font/baloo"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/tr_round"
+                />
+
+            <Switch
+                android:id="@+id/accountSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/eng"
+                />
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

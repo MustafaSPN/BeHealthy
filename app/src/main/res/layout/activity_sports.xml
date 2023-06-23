@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    tools:context=".Sports">
+
+    <TextView
+        android:id="@+id/sports_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/baloo"
+        android:shadowColor="@color/black"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="15"
+        android:text="@string/sports_header_T"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/sports_spinner"
+        style="@style/spinnerItemStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:entries="@array/sports_spinner_T"
+        android:theme="@style/spinnerItemStyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/sports_minuteInput"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sports_descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="@string/sports_descriptionText_T"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/sports_spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sports_header" />
+
+    <Button
+        android:id="@+id/sports_saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/sports_saveButton_T"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sports_minuteInput"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@mipmap/tr_round" />
+
+        <Switch
+            android:id="@+id/sportsSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@mipmap/eng" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

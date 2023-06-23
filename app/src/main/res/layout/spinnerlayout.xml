@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/spinnerItemStyle"
+    android:layout_marginStart="16dp"
+    android:entries="@array/sports_spinner_T"
+    android:fontFamily="@font/baloo"
+    android:textAppearance="@style/spinnerItemStyle"
+    android:textSize="20sp"
+    android:textStyle="normal"
+    android:theme="@style/spinnerItemStyle"
+    android:id="@+id/cust_view"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:gravity="left|center_vertical"
+    android:textColor="@android:color/black"
+    android:paddingLeft="4dp"
+    android:textIsSelectable="false">
+
+
+
+</androidx.appcompat.widget.AppCompatTextView>

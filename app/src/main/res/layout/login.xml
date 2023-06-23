@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical"
+    tools:context=".logIn">
+
+    <TextView
+        android:id="@+id/logTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="15"
+        android:text="@string/main_logIn_T"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="@string/register_password_T"
+        android:inputType="textPassword" />
+    <ProgressBar
+        android:id="@+id/loginProgressBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ProgressBar>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Space>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="@string/main_logIn_T" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="250dp"></Space>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@mipmap/tr_round"
+            />
+
+        <Switch
+            android:id="@+id/loginSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@mipmap/eng"
+            />
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></Space>
+
+</LinearLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    tools:context=".Calorie">
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundcolor">
+
+
+            <EditText
+                android:id="@+id/calorie_eveningInput"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:ems="10"
+                android:inputType="number"
+                app:layout_constraintBottom_toTopOf="@+id/calorie_saveButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/calorie_noonInput"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:ems="10"
+                android:inputType="number"
+                app:layout_constraintBottom_toTopOf="@+id/calorie_eveningInput"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/calorie_morningInput" />
+
+            <TextView
+                android:id="@+id/calorie_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/baloo"
+                android:shadowColor="@color/black"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="15"
+                android:text="@string/calorie_header_T"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/calorie_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/calorie_text_T"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/calorie_header" />
+
+            <TextView
+                android:id="@+id/calorie_morningText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="73dp"
+                android:layout_marginTop="65dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/calorie_morningText_T"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toStartOf="@+id/calorie_morningInput"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/calorie_text" />
+
+            <TextView
+                android:id="@+id/calorie_noonText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="73dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/calorie_noonText_T"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/calorie_eveningText"
+                app:layout_constraintEnd_toStartOf="@+id/calorie_noonInput"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/calorie_morningText" />
+
+            <TextView
+                android:id="@+id/calorie_eveningText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="73dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/calorie_eveningText_T"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/calorie_saveButton"
+                app:layout_constraintEnd_toStartOf="@+id/calorie_eveningInput"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@mipmap/tr_round" />
+
+                <Switch
+                    android:id="@+id/waterSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@mipmap/eng" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/calorie_morningInput"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/calorie_text" />
+
+            <Button
+                android:id="@+id/calorie_saveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/calorie_saveButton_T"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

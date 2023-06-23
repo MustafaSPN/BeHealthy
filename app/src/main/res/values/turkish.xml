@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="beHealthy">Be Healthy!</string>
+
+    <string name="main_logIn_T">Giriş Yap</string>
+    <string name="main_register_T">Kayıt Ol</string>
+    <string name="main_register_E">Register</string>
+    <string name="main_logIn_E">Sign In</string>
+
+    <string name="register_password_E">Password</string>
+    <string name="register_password_T">Şifre</string>
+
+    <string name="reg2_enterinfo_E">Enter Your Information</string>
+    <string name="reg2_enterinfo_T">Bilgilerini Gir</string>
+    <string name="reg2_name_E">Name</string>
+    <string name="reg2_name_T">Ad ve Soyad</string>
+    <string name="reg2_years_T">Yaş</string>
+    <string name="reg2_years_E">Years</string>
+    <string name="reg2_weight_T">Kilo</string>
+    <string name="reg2_weight_E">Weight</string>
+    <string name="reg2_height_T">Boy</string>
+    <string name="reg2_height_E">Height</string>
+    <string name="reg2_men_T">Erkek</string>
+    <string name="reg2_men_E">Men</string>
+    <string name="reg2_women_T">Kadın</string>
+    <string name="reg2_women_e">Women</string>
+    <string name="reg2_save_T">Kaydet</string>
+    <string name="reg2_save_E">Save</string>
+
+    <string name="update_update_E">Update</string>
+    <string name="update_update_T">Güncelle</string>
+    <string name="update_updateInfo_E">Update Info</string>
+    <string name="update_updateInfo_T">Bilgilerini Güncelle</string>
+
+    <string name="account_myAccount_T">Bilgilerim</string>
+    <string name="account_myAccount_E">Account Info</string>
+    <string name="account_name_E">Name and Surname</string>
+    <string name="account_name_T">İsim</string>
+    <string name="account_email">Email</string>
+    <string name="account_sex_E">Sex</string>
+    <string name="account_sex_T">Cinsiyet</string>
+
+    <string name="menu_header_T">Menü</string>
+    <string name="menu_header_E">Menu</string>
+    <string name="menu_b1_T">Spor</string>
+    <string name="menu_b1_E">Sports</string>
+    <string name="menu_daily_E">Daily Report</string>
+    <string name="menu_daily_T">Günlük Özet</string>
+    <string name="menu_account_E">Account Info</string>
+    <string name="menu_account_T">Bilgilerim</string>
+    <string name="menu_calorie_E">Calorie</string>
+    <string name="menu_calorie_T">Kalori Takip</string>
+    <string name="menu_recipes_E">Recipes</string>
+    <string name="menu_recipes_T">Yemek Tarifleri</string>
+    <string name="menu_sports_E">Sports</string>
+    <string name="menu_sports_T">Spor</string>
+    <string name="menu_water_E">Water</string>
+    <string name="menu_water_T">Su Takibi</string>
+    <string name="menu_weight_E">Fat Ratio</string>
+    <string name="menu_weight_T">Yağ Oranı</string>
+    <string name="menu_update_E">Update Info</string>
+    <string name="menu_update_T">Bilgileri Güncelle</string>
+    <string name="menu_health_E">Workout Program</string>
+    <string name="menu_health_T">Antrenman Programı</string>
+
+    <string name="calorie_header_E">Calorie</string>
+    <string name="calorie_header_T">Kalori Takip</string>
+    <string name="calorie_text_E">Please input your daily calorie consumption in kcal form.\n
+        (1 kcal = 4184 Joule)</string>
+    <string name="calorie_text_T">Lütfen gün içerisinde aldığınız kalori miktarını kcal cinsinden giriniz. (1 kcal = 4184 Joule)</string>
+    <string name="calorie_morningText_E">Morning</string>
+    <string name="calorie_morningText_T">Sabah</string>
+    <string name="calorie_noonText_E">Noon</string>
+    <string name="calorie_noonText_T">Öğle</string>
+    <string name="calorie_eveningText_E">Evening</string>
+    <string name="calorie_eveningText_T">Akşam</string>
+    <string name="calorie_saveButton_E">Save</string>
+    <string name="calorie_saveButton_T">Kaydet</string>
+
+    <string name="daily_header_E">Daily Report</string>
+    <string name="daily_header_T">Günlük Özet</string>
+    <string name="daily_calorieTakenText_E">Calories Taken</string>
+    <string name="daily_calorieTakenText_T">Alınan Kalori</string>
+    <string name="daily_calorieBurnText_E">Calories Burned</string>
+    <string name="daily_calorieBurnText_T">Yakılan Kalori</string>
+    <string name="daily_basalText_E">Basal Metabolism</string>
+    <string name="daily_basalText_T">Bazal Metabolizma</string>
+    <string name="daily_netCalText_E">Net Calorie</string>
+    <string name="daily_netCalText_T">Net Kalori</string>
+    <string name="daily_helpTextOW_E">Your weight is higher than normal. You need to lose weight by keeping your daily calorie intake below 2000 kcal.</string>
+    <string name="daily_helpTextOW_T">Kilonuz normalden yüksek. Günlük kalori alımınızı 2000 kcal\'den daha düşük tutarak kilo vermeniz gerekiyor.</string>
+    <string name="daily_helpTextUW_E">Your weight is lower than normal. You need to gain weight by keeping your daily calorie intake above 2000 kcal.</string>
+    <string name="daily_helpTextUW_T">Kilonuz normalden düşük. Günlük kalori alımınızı 2000 kcal\'in üstünde tutarak kilo almanız gerekiyor.</string>
+    <string name="daily_helpTextNW_E">Your weight is ideal. You can maintain you current weight by keeping your eating habits same.</string>
+    <string name="daily_helpTextNW_T">Kilonuz ideal aralıkta. Beslenme alışkanlıklarınızı sabit tutarak mevcut kilonuzu koruyabilirsiniz.</string>
+    <string name="daily_calorieTakenInput_T" />
+    <string name="daily_calorieBurnInput_T" />
+    <string name="daily_basalInput_T" />
+    <string name="daily_BMIInput_T" />
+    <string name="daily_netCalInput_T" />
+    <string name="daily_BMIText_T">BMI: </string>
+
+
+    <string name="fat_calculatefatratio_E">Calculate Fat Ratio</string>
+    <string name="fat_calculatefatratio_T">Yağ Oranını Hesapla</string>
+    <string name="fat_waistsize_E">Waist Size(cm)</string>
+    <string name="fat_waistsize_T">Bel Çevresi(cm)</string>
+    <string name="fat_necksize_E">Neck Size(cm)</string>
+    <string name="fat_necksize_T">Boyun Çevresi(cm)</string>
+    <string name="fat_hipsıze_E">Hip Size(cm)</string>
+    <string name="fat_hipsize_T">Kalça Çevresi(cm)</string>
+    <string name="fat_fatratio_E">Fat Ratio:</string>
+    <string name="fat_fatratio_T">Yağ Oranı:</string>
+    <string name="fat_fatmass_E">Fat Mass:</string>
+    <string name="fat_fatmass_T">Yağ Kütlesi:</string>
+
+    <string name="recipe_bmi_E">Your BMI rate: </string>
+    <string name="recipe_bmi_T">BMI değeriniz: </string>
+    <string name="recipe_kilo_E">Will be held</string>
+    <string name="recipe_kilo_T">Düzenlenecek</string>
+    <string name="kilo_al_E">Gain Weight!</string>
+    <string name="kilo_al_T">Kilo Al!</string>
+    <string name="kilo_ver_E">Lose Weight!</string>
+    <string name="kilo_ver_T">Kilo Ver!</string>
+    <string name="tarifE">RECIPE</string>
+    <string name="tarifT">TARİF</string>
+    <string name="breakfast_recipeE">Fit Breakfast</string>
+    <string name="breakfast_recipeT">Fit Kahvaltı</string>
+    <string name="pizza_recipeE">Bulk Pizza</string>
+    <string name="pizza_recipeT">Bulk Pizza</string>
+    <string name="salata_recipeE">Lentil Salad</string>
+    <string name="salata_recipeT">Mercimek Salatası</string>
+    <string name="yulaf_recipeE">Bulk Oat</string>
+    <string name="yulaf_recipeT">Bulk Yulaf</string>
+    <string name="pankek_recipeE">Coffee Pancakes</string>
+    <string name="pankek_recipeT">Kahveli Pankek</string>
+    <string name="hindi_recipeE">Fit Meal With Turkey</string>
+    <string name="hindi_recipeT">Hindili Sporcu Öğünü</string>
+
+    <string name="wo_baslikE">Workout Programs</string>
+    <string name="wo_baslikT">Antrenman Programları</string>
+    <string name="wo_5x5E">5x5 Workout Program</string>
+    <string name="wo_5x5T">5x5 Antrenman Programı</string>
+    <string name="wo_3x5E">3x5 Workout Program</string>
+    <string name="wo_3x5T">3x5 Antrenman Programı</string>
+    <string name="wo_fullbodyE">Full Body Workout Program</string>
+    <string name="wo_fullbodyT">Tüm Vücut Antrenman Programı</string>
+    <string name="wo_splitE">Split Workout Program</string>
+    <string name="wo_splitT">Bölgesel Antrenman Programı</string>
+    <string name="wo_kardiyoE">Cardio Program</string>
+    <string name="wo_kardiyoT">Kardiyo Programı</string>
+    <string name="program">Program</string>
+    <string name="water_baslikE">Water Tracker</string>
+    <string name="water_baslikT">Su Takibi</string>
+    <string name="water_aciklamaE">Please input the amount of water you drink in mL Form. (1 Liter = 1000mL)</string>
+    <string name="water_aciklamaT">Lütfen içtiğiniz su miktarını mL cinsinden giriniz. (1 Litre = 1000mL)</string>
+    <string name="water_inputE">Type here</string>
+    <string name="water_inputT">Buraya yazınız</string>
+    <string name="water_buttonE">SAVE</string>
+    <string name="water_buttonT">KAYDET</string>
+
+    <string-array name="sports_spinner_T">
+        <item>Yürüyüş</item>
+        <item>Tempolu Koşu</item>
+        <item>Bisiklet</item>
+        <item>Yüzme</item>
+        <item>Basketbol</item>
+        <item>İp Atlama</item>
+        <item>Jimnastik</item>
+    </string-array>
+    <string-array name="sports_spinner_E">
+        <item>Walking</item>
+        <item>Jogging</item>
+        <item>Cycling</item>
+        <item>Swimming</item>
+        <item>Basketball</item>
+        <item>Jump Rope</item>
+        <item>Gymnastics</item>
+    </string-array>
+    <string name="sports_header_E">Sports</string>
+    <string name="sports_header_T">Spor</string>
+    <string name="sports_descriptionText_E">Please select the type of sport you do and how many minutes you work out.</string>
+    <string name="sports_descriptionText_T">Lütfen yaptığınız sporu seçiniz ve\n kaç dakika çalıştığınızı giriniz.</string>
+    <string name="sports_saveButton_E">Save</string>
+    <string name="sports_saveButton_T">Kaydet</string>
+</resources>
